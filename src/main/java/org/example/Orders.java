@@ -24,9 +24,10 @@ public class Orders {
 
     @Column(nullable = false)
     private int orderTotalSum = getOrderTotalSum();
-    public Orders(Client client, List<Goods> listOfGoods) {
+    public Orders(Client client, List<Goods> listOfGoods, int orderTotalSum) {
         this.client = client;
         this.listOfGoods = listOfGoods;
+        this.orderTotalSum = orderTotalSum;
     }
 
     public Orders() {

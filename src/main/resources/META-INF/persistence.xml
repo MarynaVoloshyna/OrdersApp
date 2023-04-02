@@ -13,7 +13,7 @@
     <property name="jakarta.persistence.jdbc.url"
               value="jdbc:mysql://localhost:3306/neworders?serverTimezone=Europe/Kiev"/>
     <property name="jakarta.persistence.jdbc.user" value="root"/>
-    <property name="jakarta.persistence.jdbc.password" value="*******"/>
+    <property name="jakarta.persistence.jdbc.password" value="Lera0507"/>
     </properties>
 
 
